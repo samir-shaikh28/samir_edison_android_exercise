@@ -62,7 +62,7 @@ class FactViewModelTest {
     }
 
     @Test
-    fun testThat_ForNoInternetCorrectStateEmits() = runTest {
+    fun testThat_ForNoInternet_CorrectStateEmits() = runTest {
         // setup
         val expected = FactScreenUiState(isLoading = false, fact = null, isNetworkAvailable = false)
         every { networkManagerMock.isNetworkAvailable() } returns false

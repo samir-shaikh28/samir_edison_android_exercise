@@ -30,5 +30,8 @@ jobs:
       # - name: Make Gradle Executable
       #   run: chmod +x ./gradlew
 
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
       - name: Execute Gradle Command - testDebugUnitTest
         run: ./gradlew testDebugUnitTest

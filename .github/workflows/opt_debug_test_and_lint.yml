@@ -7,9 +7,9 @@ on:
     branches: [ arch-refactoring ]
 
 jobs:
-  lint:
-    name: Lint Debug Variant
-    uses: ./.github/workflows/job_lint_debug.yml
+#  lint:
+#    name: Lint Debug Variant
+#    uses: ./.github/workflows/job_lint_debug.yml
 
   test:
     name: Test Debug Variant

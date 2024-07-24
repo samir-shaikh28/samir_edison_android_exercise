@@ -10,6 +10,7 @@ on:
         type: String
         required: true
         default: "Manual Debug Build"
+        description: "Release Notes"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -48,3 +49,4 @@ jobs:
             serviceCredentialsFileContent: ${{ secrets.CREDENTIAL_FILE_CONTENT }}
             groups: testers
             file: app/build/outputs/apk/debug/app-debug.apk
+            releaseNotes: {{ input.release_notes }}

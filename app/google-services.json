@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "835621337692",
+    "project_id": "github-action-demo-66e21",
+    "storage_bucket": "github-action-demo-66e21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835621337692:android:be9b5a662ed8070e6c0499",
+        "android_client_info": {
+          "package_name": "jp.speakbuddy.edisonandroidexercise"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJFmZOO1_s7PrDba2_1NdBFophXwfJ1Rc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
